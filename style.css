@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/images/Railway.jpg);
+    background-size: cover;
+    font-weight: bold;
+    text-align: center;
+    color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+} 
+.container{
+    background-color: rgb(61, 14, 179);
+    width: 70%;
+    height: 80vh;
+    margin-top: 4rem;
+    margin-left: 12rem;
+    border: 0.2rem rgb(206, 193, 193) solid;
+    border-radius: 2rem 8rem 2rem 8rem;
+}
+
+h1 {
+    padding-top: 30px;
+    margin-bottom: 100px;
+    letter-spacing: 3px;
+
+} 
+
+h2 {
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+button {
+    border: whitesmoke 0.10rem solid;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(227, 216, 216);
+    font-weight: bold;
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: rgb(188, 6, 6);
+}
+
+#save-btn {
+    background: darkgreen;
+}
+
